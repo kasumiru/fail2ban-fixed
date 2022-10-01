@@ -1,3 +1,18 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ FIXED: original fail2ban, but FIXED BUGS with python3. sucks
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
                          __      _ _ ___ _               
                         / _|__ _(_) |_  ) |__  __ _ _ _  
                        |  _/ _` | | |/ /| '_ \/ _` | ' \ 
