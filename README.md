@@ -10,7 +10,20 @@
  ##########
  ##########  
  
- FIXED: original fail2ban, but FIXED BUGS with python3. sucks
+ FIXED: original fail2ban, but FIXED BUGS with python3. sucks.
+ etc: in Debian, (working not in Centos 9!):
+
+sudo apt install 2to3 python3-lib2to3 python3-toolz
+2to3
+git clone https://github.com/fail2ban/fail2ban.git
+cd fail2ban/
+./fail2ban-2to3
+git add -A
+git commit -m "fix for python >= 3.9"
+git push https://ghp_xxxxxxxKSB@github.com/kasumiru/fail2ban-fixed.git
+git reset --hard origin  https://ghp_xxxxxxxKSB@github.com/kasumiru/fail2ban-fixed.git
+git push https://ghp_xxxxxxxKSB@github.com/kasumiru/fail2ban-fixed.git
+ 
  
  ##########
  ##########
